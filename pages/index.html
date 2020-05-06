@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type = "text/javascript" src="/js/main.js"></script>
+    
+  </head>
+
+  <body>
+    <div id = "header">
+      <div class="nav">
+        <ul class="navbar">
+            <li><a class="anchorlink" href="index.html">HOME</a></li>
+            <li><a class="anchorlink" href="about.html">ABOUT</a></li>
+            <li><a class="anchorlink" href="works.html">WORKS</a></li>
+            <li><a class="anchorlink" href="info.html">INFO</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div name = "title" id = "title">
+        <h1>Welcome to My Portfolio</h1>
+        <h3>Created by Satsuki Yamamoto</h3>
+        <nav>
+            <div id = "menu">
+                <a href="#about">About Me</a>
+                <a href="#works">Works</a>
+                <a href="#info">Info</a>
+            </div>
+        </nav>
+    </div>
+  
+      <div name = "main" id = "main">
+
+        <section id="about">
+          <div id = "aboutWrap">
+              <h2>About Me</h2>
+              <div id = aboutContent>
+                <p>My name is Satsuki Yamamoto. I am 22 years old.<br>
+                  I am from Japan and I study IT and Management in the United States.<br>
+                I like playing sports (Baseball, Soccer etc . .).<br>
+                My favorite Japanese food is Sushi 🍣  </p>
+                <a id = "link" href="about.html">Click here to see more detail!</a>
+              </div>
+          </div>
+        </section>
+
+        <section id="works">
+          <div id = "worksWrap">
+              <h2>Works</h2><br>
+              <div id = "worksContent">
+                <article class="EMS">
+                  <h3>Employees management project</h3>
+                  <a href="https://github.com/Ysatsu/EMS" class="url"><img id = "image" src="images/EMS.png" alt="" /></a>
+                  <!-- <p>This project deal with putting employees infomation into the database <br> to manage their infomation</p> -->
+                  <p>Click the image to access my Github!</p>
+                  <a id = "link" href="works.html">Click here to see more detail!</a><br><br>
+                </article>
+                <article class="MyMap">
+                  <h3>My Map</h3>
+                  <a href="https://gitlab.com/team-tech-intern/mymap" class="url"><img id = "image" src="images/MyMap.png" alt="" /></a>
+                  <!-- <p>This project is to show Map using API</p> -->
+                  <p>Click the image to access my GitLab!</p>
+                  <a id = "link" href="works.html">Click here to see more detail!</a><br><br>
+                </article>
+                <article class="Tech">
+                  <h3>Intern Website</h3>
+                  <a href="https://sartus.herokuapp.com/" class="url"><img id = "image" src="images/TechWeb.png" alt="" /></a>
+                  <!-- <p>This website is created by me and my friends whom met in internship.<br>I am loolking forward to create more projects as the team!</p> -->
+                  <p>Click the image to access the Website</p>
+                  <a id = "link" href="works.html">Click here to see more detail!</a><br>
+                </article>
+              </div>
+          </div>
+        </section>
+        
+        <section id="info">
+          <div id = "infoWrap">
+              <h2>Info</h2>
+              <div id = "infoContent">
+                <p>Name : Satsuki Yamamoto<br>
+                Birthday : 1997/09/09<br>
+                Birthplace : Tokyo, Japan<br>
+                Education : Newman University<br>
+                Languages : Japanese, English
+                Email : y.satsuki999@gmail.com<br>
+                Phone Number : 316-821-4725</p>
+                <a id = "link" href="info.html">Click here to see more detail!</a>
+              </div> 
+          </div>
+        </section>
+        <div id="btnTop"><button id = "btn" onclick='scrollToTop()'>Return to the top</button></div>
+      </div>
+      
+     <!-- when click the href I want to set some effect when I move to different page -->
+  </body>
+</html>
